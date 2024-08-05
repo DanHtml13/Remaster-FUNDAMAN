@@ -1,0 +1,240 @@
+* styles.css */
+
+/* Reseteo de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+/* Estilos Generales */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: rgb(38, 16, 68);
+    padding: 10px 0;
+}
+
+header a:hover{
+    color: rgb(44, 6, 39);
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.img{
+    transform: rotate(5);
+}
+
+
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgb(0,0,0,0.5),
+        rgb(0,0,0,0.5)
+    )
+    ,url("media/LogoFundam.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.banner h2 {
+    font-size: 2.5rem;
+}
+
+.banner p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.cta-button {
+    background: #9737cf;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.cta-button:hover {
+    background: #360b7a;
+}
+
+
+#Sobre_Nosotros .container{
+    text-align: center;
+    padding: 30px 100px;
+    flex-direction: columns
+    
+}
+
+#Sobre_Nosotros2{
+    padding: 100px 100px;
+    flex-direction: columns
+
+}
+
+#Sobre_Nosotros2{
+    text-align: center;
+    padding: 30px 100px;
+    flex-direction: columns
+}
+#Sobre_Nosotros2{
+    text-align: center;
+}
+
+#Sobre_Nosotros2 {
+    background-color: rgb(46, 41, 61);
+    color: white;
+}
+
+#Sobre_Nosotros2{
+    padding: 30px;
+}
+
+#Sobre_Nosotros2{
+    margin-top: 0;
+}
+
+#h{
+    text-align: center;
+    padding: 30px 100px;
+    flex-direction: columns
+}
+
+.Al{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgb(0,0,0,0.5),
+        rgb(0,0,0,0.5)
+    )
+    ,url("media/Niños.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#Porque{
+    text-align: center;
+    padding: 30px 100px;
+    flex-direction: columns
+}
+
+#Felices{
+    font-size: 32px;
+}
+#Felices{
+    text-align: center;
+    padding: 30px 100px;
+    flex-direction: columns
+}
+#Felices{
+    text-align: center;
+}
+
+#Felices {
+    background-color: hwb(256 51% 0%);
+    color: white;
+}
+
+#Felices {
+    padding: 30px;
+}
+
+#Felices h3{
+    margin-top: 0;
+}
+
+
+
+#actividades {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    margin: 20px;
+    flex-direction: column;
+    width: 70vh;
+    height: 60vh;
+    color: white;
+    background-image: url("media/k.png");
+    background-repeat: no-repeat;
+    background-size: 120px 120px;
+    background-size:auto;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+.services, .testimonials, .benefits, .team, .mission-vision-values, .portfolio-item, .contact-info, .social-media, .faq-item {
+    padding: 20px;
+    margin: 20px;
+}
+
+.services .service, .team .team-member, .service-detail {
+    margin-bottom: 20px;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+}
+
+.map {
+    margin-top: 20px;
+}
+
+footer {
+    background: rgb(38, 16, 68);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+
+
+
+
+
